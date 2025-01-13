@@ -5,11 +5,11 @@
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preload" as="image"
+    <!-- <link rel="preload" as="image"
         imageSrcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=750&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75 2x"
-        fetchPriority="high" />
-    <link rel="stylesheet" href="./_next/static/css/82220813c33cfb5a.css" data-precedence="next" />
-    <link rel="preload" as="script" fetchPriority="low" href="./_next/static/chunks/webpack-d1ba210757bbb12c.js" />
+        fetchPriority="high" /> -->
+    <link rel="stylesheet" href="../css/82220813c33cfb5a.css" data-precedence="next" />
+    <!-- <link rel="preload" as="script" fetchPriority="low" href="./_next/static/chunks/webpack-d1ba210757bbb12c.js" />
     <script src="./_next/static/chunks/fd9d1056-a529cd79ade4313c.js" async=""></script>
     <script src="./_next/static/chunks/23-566e04d009a8b965.js" async=""></script>
     <script src="./_next/static/chunks/main-app-2fffa043f04d803f.js" async=""></script>
@@ -19,7 +19,7 @@
     <script src="./_next/static/chunks/app/%5Blang%5D/about/page-14df0057c43c9035.js" async=""></script>
     <script src="./_next/static/chunks/9c4e2130-f6a15c72617f12f5.js" async=""></script>
     <script src="./_next/static/chunks/53c13509-0c630ab4808c3220.js" async=""></script>
-    <script src="./_next/static/chunks/app/%5Blang%5D/layout-9de29bfb766c7260.js" async=""></script>
+    <script src="./_next/static/chunks/app/%5Blang%5D/layout-9de29bfb766c7260.js" async=""></script> -->
     <link rel="shortcut icon" href="/images/favicon.png" />
     <meta name="theme-name" content="nextplate" />
     <meta name="msapplication-TileColor" content="#000000" />
@@ -54,11 +54,10 @@
     <script>!function () { try { var d = document.documentElement, c = d.classList; c.remove('light', 'dark'); var e = localStorage.getItem('theme'); if ('system' === e || (!e && false)) { var t = '(prefers-color-scheme: dark)', m = window.matchMedia(t); if (m.media !== t || m.matches) { c.add('dark') } else { c.add('light') } } else if (e) { c.add(e || '') } else { c.add('light') } } catch (e) { } }()</script>
     <header class="header z-30 sticky top-0">
         <nav class="navbar container">
-            <div class="order-0"><a class="navbar-brand inline-block" href="/hi"><img
+            <div class="order-0"><a class="navbar-brand inline-block" href="../hi.html"><img
                         alt="SGN MicroSolutions Foundation" fetchPriority="high" width="672" height="246"
                         decoding="async" data-nimg="1" style="color:transparent;height:123px;width:336px"
-                        srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=750&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75 2x"
-                        src="/_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75" /></a>
+                        src="../images/new_imgs/logo - Copy.jpg" /></a>
             </div><input id="nav-toggle" type="checkbox" class="hidden" /><label for="nav-toggle"
                 class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"><svg
                     id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
@@ -72,21 +71,38 @@
             <ul id="nav-menu"
                 class="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
                 <li class="nav-item"><a
-                        class="nav-link block active bg-[#243b73] rounded px-5 text-white text-decoration underline underline-offset-4"
-                        href="/hi">होम</a></li>
-                <li class="nav-item"><a class="nav-link block false" href="/hi/about">हमारे बारे में</a></li>
-                <li class="nav-item"><a class="nav-link block false" href="/hi/whyus">हम ही क्यों?</a></li>
-                <li class="nav-item"><a class="nav-link block false" href="/hi/network">हमारा नेटवर्क और साझेदार</a>
+                        class="nav-link block"
+                        href="../hi.html">होम</a></li>
+                <li class="nav-item"><a class="nav-link block active bg-[#243b73] rounded px-5 text-white text-decoration underline underline-offset-4" href="../hi/about.html">हमारे बारे में</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="../hi/whyus.html">हम ही क्यों?</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="../hi/network.html">हमारा नेटवर्क और साझेदार</a>
                 </li>
-                <li class="nav-item"><a class="nav-link block false" href="/hi/contact">संपर्क करें</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="../hi/contact.html">संपर्क करें</a></li>
                 <li class="mt-4 inline-block lg:hidden"><a class="btn btn-outline-primary btn-sm hover:bg-[#243b73]"
                         href="https://www.dfintech.club/admin/">Login</a></li>
             </ul>
-            <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0"><select name="language"
-                    class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded">
+            <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+                <select name="language" class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded"
+                    onchange="handleLanguageChange(this)">
                     <option id="en" value="en">English</option>
                     <option id="hi" value="hi" selected="">Hindi</option>
-                </select><a class="btn btn-outline-primary btn-sm hidden lg:inline-block hover:bg-[#243b73]"
+                </select>
+                <script>
+                    function handleLanguageChange(selectElement) {
+                        const selectedValue = selectElement.value;
+                        // Define the URLs for each language
+                        const languageUrls = {
+                            en: './index.html', // Replace with the actual URL for the English page
+                            hi: './hi.html',   // Replace with the actual URL for the Hindi page
+                        };
+                
+                        // Navigate to the corresponding URL
+                        if (languageUrls[selectedValue]) {
+                            window.location.href = languageUrls[selectedValue];
+                        }
+                    }
+                </script>
+                <a class="btn btn-outline-primary btn-sm hidden lg:inline-block hover:bg-[#243b73]"
                     href="https://www.dfintech.club/admin/">Login</a></div>
         </nav>
     </header>
@@ -198,8 +214,7 @@
                 <div class="row items-center justify-between">
                     <div class="mb:md-0 mb-6 md:col-5 false"><img alt="**हमारा मिशन और विज़न**" loading="lazy"
                             width="520" height="480" decoding="async" data-nimg="1" style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2FOur%20Mission%20and%20Vision.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2FOur%20Mission%20and%20Vision.png&amp;w=1080&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2FOur%20Mission%20and%20Vision.png&amp;w=1080&amp;q=75" />
+                            src="../images/new_imgs/Our Mission and Vision.png" />
                     </div>
                     <div class="md:col-7 lg:col-6 false">
                         <h2 class="mb-10"><strong>हमारा मिशन और विज़न</strong></h2>
@@ -243,8 +258,7 @@
                 <div class="row items-center justify-between">
                     <div class="mb:md-0 mb-6 md:col-5 md:order-2"><img alt="हमारे मूल्य (वैल्यूज़)" loading="lazy"
                             width="520" height="480" decoding="async" data-nimg="1" style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2F05.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2F05.jpg&amp;w=1080&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2F05.jpg&amp;w=1080&amp;q=75" /></div>
+                            src="../images/new_imgs/05.jpg" /></div>
                     <div class="md:col-7 lg:col-6 md:order-1">
                         <h2 class="mb-10">हमारे मूल्य (वैल्यूज़)</h2>
                         <p class="mb-8 text-lg"></p>
@@ -335,15 +349,13 @@
             <div class="flex justify-center gap-8">
                 <div class="text-center"> <img alt="" loading="lazy" width="520" height="480" decoding="async"
                         data-nimg="1" style="color:transparent"
-                        srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft5.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft5.jpg&amp;w=1080&amp;q=75 2x"
-                        src="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft5.jpg&amp;w=1080&amp;q=75" />
+                        src="../images/new_imgs/ppl/t5.jpg" />
                     <p class="mt-2 font-semibold">सुशील अंथवाल</p>
                     <p class="text-gray-600">निदेशक और बिज़नेस हैड</p>
                 </div>
                 <div class="text-center"> <img alt="" loading="lazy" width="520" height="480" decoding="async"
                         data-nimg="1" style="color:transparent"
-                        srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft6.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft6.jpg&amp;w=1080&amp;q=75 2x"
-                        src="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft6.jpg&amp;w=1080&amp;q=75" />
+                        src="../images/new_imgs/ppl/t6.jpg" />
                     <p class="mt-2 font-semibold">गीता देवी</p>
                     <p class="text-gray-600">निदेशक</p>
                 </div>
@@ -364,8 +376,7 @@
                     <div class="mb:md-0 mb-6 md:col-5 false"><img alt="सुशील अंथवाल, निदेशक और बिज़नेस हैड"
                             loading="lazy" width="520" height="480" decoding="async" data-nimg="1"
                             style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft5.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft5.jpg&amp;w=1080&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2Ft5.jpg&amp;w=1080&amp;q=75" /></div>
+                            src="../images/new_imgs/ppl/t5.jpg" /></div>
                     <div class="md:col-7 lg:col-6 false">
                         <h2 class="mb-10">सुशील अंथवाल, निदेशक और बिज़नेस हैड</h2>
                         <p class="mb-8 text-lg">बैंकिंग और वित्तीय सेवाओं (BFS) उद्योग में 18 से अधिक वर्षों के अनुभव के
@@ -429,8 +440,7 @@
                     <div class="mb:md-0 mb-6 md:col-5 md:order-2"><img alt="सपन शर्मा, रिस्क और स्ट्रेटजी हैड"
                             loading="lazy" width="520" height="480" decoding="async" data-nimg="1"
                             style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2FPicture3.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2FPicture3.jpg&amp;w=1080&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2FPicture3.jpg&amp;w=1080&amp;q=75" />
+                            src="../images/new_imgs/ppl/Picture3.jpg" />
                     </div>
                     <div class="md:col-7 lg:col-6 md:order-1">
                         <h2 class="mb-10">सपन शर्मा, रिस्क और स्ट्रेटजी हैड</h2>
@@ -495,8 +505,7 @@
                     <div class="mb:md-0 mb-6 md:col-5 false"><img alt="विजय जैन, मानव संसाधन, क्रेडिट और ऑपरेशंस हैड"
                             loading="lazy" width="520" height="480" decoding="async" data-nimg="1"
                             style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2FPicture2.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2FPicture2.jpg&amp;w=1080&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2Fppl%2FPicture2.jpg&amp;w=1080&amp;q=75" />
+                            src="../images/new_imgs/ppl/Picture2.jpg" />
                     </div>
                     <div class="md:col-7 lg:col-6 false">
                         <h2 class="mb-10">विजय जैन, मानव संसाधन, क्रेडिट और ऑपरेशंस हैड</h2>
@@ -551,8 +560,7 @@
                         href="/hi"><img alt="SGN MicroSolutions Foundation" fetchPriority="high" width="672"
                             height="246" decoding="async" data-nimg="1"
                             style="color:transparent;height:123px;width:336px"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=750&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75" /></a>
+                            src="../images/new_imgs/logo - Copy.jpg" /></a>
                     <p class="mt-4 text-md text-light dark:text-darkmode-light">Regd. Address - B-4, 51, Ashok Mohalla,
                         Nangloi, New Delhi - 110041</p>
                 </div>
