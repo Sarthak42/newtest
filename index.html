@@ -5,24 +5,24 @@
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preload" as="image"
+    <!-- <link rel="preload" as="image"
         imageSrcSet="./_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=750&amp;q=75 1x, ./_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75 2x"
         fetchPriority="high" />
     <link rel="preload" as="image"
         imageSrcSet="./_next/image?url=%2Fimages%2Fnew_imgs%2FOpening%20Photo.jpg&amp;w=828&amp;q=75 1x, ./_next/image?url=%2Fimages%2Fnew_imgs%2FOpening%20Photo.jpg&amp;w=1920&amp;q=75 2x"
-        fetchPriority="high" />
+        fetchPriority="high" /> -->
     <link rel="stylesheet" href="./css/82220813c33cfb5a.css" data-precedence="next" />
     <!-- <link rel="preload" as="script" fetchPriority="low" href="./_next/static/chunks/webpack-d1ba210757bbb12c.js" /> -->
-    <!-- <script src="./_next/static/chunks/fd9d1056-a529cd79ade4313c.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/23-566e04d009a8b965.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/main-app-2fffa043f04d803f.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/122-ec1420c5dafe4364.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/231-414a75046581bfb0.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/648-b13f9eaada56372c.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/app/%5Blang%5D/page-ba09a45bef5b799b.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/9c4e2130-f6a15c72617f12f5.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/53c13509-0c630ab4808c3220.js" async=""></script> -->
-    <!-- <script src="./_next/static/chunks/app/%5Blang%5D/layout-9de29bfb766c7260.js" async=""></script> -->
+    <!-- <script src="./_next/static/chunks/fd9d1056-a529cd79ade4313c.js" async=""></script>
+    <script src="./_next/static/chunks/23-566e04d009a8b965.js" async=""></script>
+    <script src="./_next/static/chunks/main-app-2fffa043f04d803f.js" async=""></script>
+    <script src="./_next/static/chunks/122-ec1420c5dafe4364.js" async=""></script>
+    <script src="./_next/static/chunks/231-414a75046581bfb0.js" async=""></script>
+    <script src="./_next/static/chunks/648-b13f9eaada56372c.js" async=""></script>
+    <script src="./_next/static/chunks/app/%5Blang%5D/page-ba09a45bef5b799b.js" async=""></script>
+    <script src="./_next/static/chunks/9c4e2130-f6a15c72617f12f5.js" async=""></script>
+    <script src="./_next/static/chunks/53c13509-0c630ab4808c3220.js" async=""></script>
+    <script src="./_next/static/chunks/app/%5Blang%5D/layout-9de29bfb766c7260.js" async=""></script> -->
     <link rel="shortcut icon" href="./images/favicon.png" />
     <meta name="theme-name" content="nextplate" />
     <meta name="msapplication-TileColor" content="#000000" />
@@ -60,7 +60,6 @@
             <div class="order-0"><a class="navbar-brand inline-block" href="/"><img alt="SGN MicroSolutions Foundation"
                         fetchPriority="high" width="672" height="246" decoding="async" data-nimg="1"
                         style="color:transparent;height:123px;width:336px"
-                        srcSet="./images/new_imgs/logo - Copy.jpg 1x, ./images/new_imgs/logo - Copy.jpg 2x"
                         src="./images/new_imgs/logo - Copy.jpg" /></a>
             </div><input id="nav-toggle" type="checkbox" class="hidden" /><label for="nav-toggle"
                 class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"><svg
@@ -76,20 +75,43 @@
                 class="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
                 <li class="nav-item"><a
                         class="nav-link block active bg-[#243b73] rounded px-5 text-white text-decoration underline underline-offset-4"
-                        href="/">Home</a></li>
+                        href="./index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link block false" href="./en/about.html">About Us</a></li>
                 <li class="nav-item"><a class="nav-link block false" href="./en/whyus.html">Why Us</a></li>
-                <li class="nav-item"><a class="nav-link block false" href="./en/network.html">Our Network &amp; Partners</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="./en/network.html">Our Network &amp;
+                        Partners</a></li>
                 <li class="nav-item"><a class="nav-link block false" href="./en/contact.html">Contact Us</a></li>
                 <li class="mt-4 inline-block lg:hidden"><a class="btn btn-outline-primary btn-sm hover:bg-[#243b73]"
                         href="https://www.dfintech.club/admin/">Login</a></li>
             </ul>
-            <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0"><select name="language"
-                    class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded">
+            <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+                <!-- <select name="language" class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded">
                     <option id="en" value="en" selected="">English</option>
                     <option id="hi" value="hi">Hindi</option>
-                </select><a class="btn btn-outline-primary btn-sm hidden lg:inline-block hover:bg-[#243b73]"
-                    href="https://www.dfintech.club/admin/">Login</a></div>
+                </select> -->
+                <select name="language" class="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded"
+                    onchange="handleLanguageChange(this)">
+                    <option id="en" value="en" selected="">English</option>
+                    <option id="hi" value="hi">Hindi</option>
+                </select>
+                <script>
+                    function handleLanguageChange(selectElement) {
+                        const selectedValue = selectElement.value;
+                        // Define the URLs for each language
+                        const languageUrls = {
+                            en: './index.html', // Replace with the actual URL for the English page
+                            hi: './hi.html',   // Replace with the actual URL for the Hindi page
+                        };
+                
+                        // Navigate to the corresponding URL
+                        if (languageUrls[selectedValue]) {
+                            window.location.href = languageUrls[selectedValue];
+                        }
+                    }
+                </script>
+                <a class="btn btn-outline-primary btn-sm hidden lg:inline-block hover:bg-[#243b73]"
+                    href="https://www.dfintech.club/admin/">Login</a>
+            </div>
         </nav>
     </header>
     <div id="searchModal" class="search-modal">
@@ -132,12 +154,11 @@
                         <p class="mb-8">Whether you run a small shop, a boutique, or a local stall, we’re here to help
                             you grow with simple, short-term loans that fit your needs. No hassle, just fast and
                             friendly service to keep your business moving forward!</p><a class="btn btn-primary"
-                            rel="noopener" href="/apply">Apply for a Loan</a>
+                            rel="noopener" href="./en/apply.html">Apply for a Loan</a>
                     </div>
                     <div class="col-12"><img alt="banner image" fetchPriority="high" width="800" height="420"
                             decoding="async" data-nimg="1" class="mx-auto" style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2FOpening%20Photo.jpg&amp;w=828&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2FOpening%20Photo.jpg&amp;w=1920&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2FOpening%20Photo.jpg&amp;w=1920&amp;q=75" />
+                            src="./images/new_imgs/Opening Photo.jpg" />
                     </div>
                 </div>
             </div>
@@ -147,8 +168,7 @@
                 <div class="row items-center justify-between">
                     <div class="mb:md-0 mb-6 md:col-5 false"><img alt="Our Product" loading="lazy" width="520"
                             height="480" decoding="async" data-nimg="1" style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2FOur%20product.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2FOur%20product.jpg&amp;w=1080&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2FOur%20product.jpg&amp;w=1080&amp;q=75" /></div>
+                            src="./images/new_imgs/Our product.jpg" /></div>
                     <div class="md:col-7 lg:col-6 false">
                         <h2 class="mb-10">Our Product</h2>
                         <p class="mb-8 text-lg">Our product is a specialized financial solution designed to empower
@@ -167,8 +187,7 @@
                 <div class="row items-center justify-between">
                     <div class="mb:md-0 mb-6 md:col-5 md:order-2"><img alt="Our Customer Segment" loading="lazy"
                             width="520" height="480" decoding="async" data-nimg="1" style="color:transparent"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2FChaupati.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2FChaupati.jpg&amp;w=1080&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2FChaupati.jpg&amp;w=1080&amp;q=75" /></div>
+                            src="./images/new_imgs/Chaupati.jpg" /></div>
                     <div class="md:col-7 lg:col-6 md:order-1">
                         <h2 class="mb-10">Our Customer Segment</h2>
                         <p class="mb-8 text-lg"><strong>Small Retail Businesses</strong>: Our primary customer segment
@@ -186,10 +205,9 @@
         <div class="container">
             <div class="row items-center py-10">
                 <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left"><a class="navbar-brand inline-block"
-                        href="/"><img alt="SGN MicroSolutions Foundation" fetchPriority="high" width="672" height="246"
+                        href="./index.html"><img alt="SGN MicroSolutions Foundation" fetchPriority="high" width="672" height="246"
                             decoding="async" data-nimg="1" style="color:transparent;height:123px;width:336px"
-                            srcSet="/_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=750&amp;q=75 1x, /_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fnew_imgs%2Flogo%20-%20Copy.jpg&amp;w=1920&amp;q=75" /></a>
+                            src="./images/new_imgs/logo - Copy.jpg" /></a>
                     <p class="mt-4 text-md text-light dark:text-darkmode-light">Regd. Address - B-4, 51, Ashok Mohalla,
                         Nangloi, New Delhi - 110041</p>
                 </div>
