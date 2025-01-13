@@ -166,23 +166,49 @@
             <div class="container">
                 <div class="row">
                     <div class="mx-auto md:col-10 lg:col-6">
-                        <form action="#" method="POST">
-                            <div class="mb-6"><label for="name" class="form-label">नाम<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="name" class="form-input"
-                                    placeholder="अपना पूरा नाम दर्ज करें" type="text" name="name" /></div>
-                            <div class="mb-6"><label for="email" class="form-label">ईमेल आईडी<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="email" class="form-input"
-                                    placeholder="अपना ईमेल आईडी दर्ज करें" type="email" name="email" /></div>
-                            <div class="mb-6"><label for="contact no" class="form-label">फ़ोन नंबर<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="contact" class="form-input"
-                                    placeholder="अपना फ़ोन नंबर दर्ज करें" type="number" name="contact" /></div>
-                            <div class="mb-6"><label for="city" class="form-label">शहर<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="city" class="form-input"
-                                    placeholder="अपना शहर दर्ज करें" type="text" name="city" /></div>
-                            <div class="mb-6"><label for="message" class="form-label">सुझाव / शिक़ायत<!-- --> <span
-                                        class="text-red-500">*</span></label><textarea id="message" name="message"
-                                    class="form-input" placeholder="यहां संदेश लिखें..." rows="8"></textarea></div>
-                            <button type="submit" class="btn btn-primary">जमा करें</button>
+                        <form action="https://formsubmit.co/e276186c7b4eccdf467cc3e644b7159e" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class="mb-6">
+                                <label for="name" class="form-label">
+                                    नाम
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="name" class="form-input" placeholder="अपना पूरा नाम दर्ज करें" type="text"
+                                    name="name" required/>
+                            </div>
+                            <div class="mb-6">
+                                <label for="email" class="form-label">
+                                    ईमेल आईडी
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="email" class="form-input" placeholder="अपना ईमेल आईडी दर्ज करें" type="email"
+                                    name="email" required/>
+                            </div>
+                            <div class="mb-6">
+                                <label for="contact no" class="form-label">
+                                    फ़ोन नंबर
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="contact" class="form-input" placeholder="अपना फ़ोन नंबर दर्ज करें" type="number"
+                                    name="contact" required/>
+                            </div>
+                            <div class="mb-6">
+                                <label for="city" class="form-label">
+                                    शहर
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="city" class="form-input" placeholder="अपना शहर दर्ज करें" type="text"
+                                    name="city" required/>
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="form-label">
+                                    सुझाव / शिक़ायत
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <textarea id="message" name="message" class="form-input"
+                                    placeholder="यहां संदेश लिखें..." rows="8" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>

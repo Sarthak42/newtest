@@ -68,14 +68,13 @@
                     <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
                         transform="rotate(45 10 10)"></polygon>
                 </svg></label>
-                <ul id="nav-menu"
+            <ul id="nav-menu"
                 class="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
-                <li class="nav-item"><a
-                        class="nav-link block"
-                        href="../hi.html">होम</a></li>
+                <li class="nav-item"><a class="nav-link block" href="../hi.html">होम</a></li>
                 <li class="nav-item"><a class="nav-link block false" href="../hi/about.html">हमारे बारे में</a></li>
                 <li class="nav-item"><a class="nav-link block false" href="../hi/whyus.html">हम ही क्यों?</a></li>
-                <li class="nav-item"><a class="nav-link block false" href="../hi/network.html">हमारा नेटवर्क और साझेदार</a>
+                <li class="nav-item"><a class="nav-link block false" href="../hi/network.html">हमारा नेटवर्क और
+                        साझेदार</a>
                 </li>
                 <li class="nav-item"><a class="nav-link block false" href="../hi/contact.html">संपर्क करें</a></li>
                 <li class="mt-4 inline-block lg:hidden"><a class="btn btn-outline-primary btn-sm hover:bg-[#243b73]"
@@ -95,7 +94,7 @@
                             en: '../en/apply.html', // Replace with the actual URL for the English page
                             hi: '../hi/apply.html',   // Replace with the actual URL for the Hindi page
                         };
-                
+
                         // Navigate to the corresponding URL
                         if (languageUrls[selectedValue]) {
                             window.location.href = languageUrls[selectedValue];
@@ -103,7 +102,8 @@
                     }
                 </script>
                 <a class="btn btn-outline-primary btn-sm hidden lg:inline-block hover:bg-[#243b73]"
-                    href="https://www.dfintech.club/admin/">Login</a></div>
+                    href="https://www.dfintech.club/admin/">Login</a>
+            </div>
         </nav>
     </header>
     <div id="searchModal" class="search-modal">
@@ -150,29 +150,57 @@
             <div class="container">
                 <div class="row">
                     <div class="mx-auto md:col-10 lg:col-6">
-                        <form action="#" method="POST">
-                            <div class="mb-6"><label for="name" class="form-label">नाम<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="name" class="form-input"
-                                    placeholder="अपना पूरा नाम दर्ज करें" type="text" name="name" /></div>
-                            <div class="mb-6"><label for="email" class="form-label">ईमेल आईडी<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="email" class="form-input"
-                                    placeholder="अपना ईमेल आईडी दर्ज करें" type="email" name="email" /></div>
-                            <div class="mb-6"><label for="contact no" class="form-label">फ़ोन नंबर<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="contact" class="form-input"
-                                    placeholder="अपना फ़ोन नंबर दर्ज करें" type="number" name="contact" /></div>
-                            <div class="mb-6"><label for="city" class="form-label">शहर<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="city" class="form-input"
-                                    placeholder="अपना शहर दर्ज करें" type="text" name="city" /></div>
-                            <div class="mb-6"><label for="loan amount" class="form-label">प्रस्तावित लोन राशि<!-- -->
-                                    <span class="text-red-500">*</span></label><input id="loanamt" class="form-input"
-                                    placeholder="प्रस्तावित लोन राशि" type="number" name="loanamt" /></div>
-                            <div class="mb-6"><label for="status" class="form-label">नौकरीपेशा/व्यवसाई<!-- --> <span
-                                        class="text-red-500">*</span></label><select id="status" name="status"
-                                    class="form-input">
+                        <form action="https://formsubmit.co/e276186c7b4eccdf467cc3e644b7159e" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class="mb-6">
+                                <label for="name" class="form-label">
+                                    नाम
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="name" class="form-input" placeholder="अपना पूरा नाम दर्ज करें" type="text"
+                                    name="name" required />
+                            </div>
+                            <div class="mb-6"><label for="email" class="form-label">
+                                ईमेल आईडी
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="email" class="form-input" placeholder="अपना ईमेल आईडी दर्ज करें" type="email"
+                                    name="email" required />
+                            </div>
+                            <div class="mb-6"><label for="contact no" class="form-label">
+                                फ़ोन नंबर
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="contact" class="form-input" placeholder="अपना फ़ोन नंबर दर्ज करें" type="number"
+                                    name="contact" required />
+                            </div>
+                            <div class="mb-6">
+                                <label for="city" class="form-label">
+                                    शहर
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="city" class="form-input" placeholder="अपना शहर दर्ज करें" type="text"
+                                    name="city" required />
+                            </div>
+                            <div class="mb-6">
+                                <label for="loan amount" class="form-label">
+                                    रस्तावित लोन राशि
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="loanamt" class="form-input" placeholder="प्रस्तावित लोन राशि"
+                                    type="number" name="loanamt" required />
+                            </div>
+                            <div class="mb-6">
+                                <label for="status" class="form-label">
+                                    नौकरीपेशा/व्यवसाई
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <select id="status" name="status" class="form-input" required>
                                     <option value="" disabled="" selected=""></option>
                                     <option value="salaried">नौकरीपेशा</option>
                                     <option value="self-employed">व्यवसाई</option>
-                                </select></div><button type="submit" class="btn btn-primary">जमा करें</button>
+                                </select>
+                                <button type="submit" class="btn btn-primary">जमा करें</button>
                         </form>
                     </div>
                 </div>
