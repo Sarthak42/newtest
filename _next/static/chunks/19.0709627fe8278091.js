@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[19],{19:function(e){e.exports=JSON.parse('{"main":[{"name":"होम","url":"/"},{"name":"हमारे बारे में","url":"/about"},{"name":"हम ही क्यों?","url":"/whyus"},{"name":"हमारा नेटवर्क और साझेदार","url":"/network"},{"name":"संपर्क करें","url":"/contact"}],"footer":[]}')}}]);
