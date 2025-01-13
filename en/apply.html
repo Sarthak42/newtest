@@ -54,9 +54,9 @@
     <script>!function () { try { var d = document.documentElement, c = d.classList; c.remove('light', 'dark'); var e = localStorage.getItem('theme'); if ('system' === e || (!e && false)) { var t = '(prefers-color-scheme: dark)', m = window.matchMedia(t); if (m.media !== t || m.matches) { c.add('dark') } else { c.add('light') } } else if (e) { c.add(e || '') } else { c.add('light') } } catch (e) { } }()</script>
     <header class="header z-30 sticky top-0">
         <nav class="navbar container">
-            <div class="order-0"><a class="navbar-brand inline-block" href="../index.html"><img alt="SGN MicroSolutions Foundation"
-                        fetchPriority="high" width="672" height="246" decoding="async" data-nimg="1"
-                        style="color:transparent;height:123px;width:336px"
+            <div class="order-0"><a class="navbar-brand inline-block" href="../index.html"><img
+                        alt="SGN MicroSolutions Foundation" fetchPriority="high" width="672" height="246"
+                        decoding="async" data-nimg="1" style="color:transparent;height:123px;width:336px"
                         src="../images/new_imgs/logo - Copy.jpg" /></a>
             </div><input id="nav-toggle" type="checkbox" class="hidden" /><label for="nav-toggle"
                 class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"><svg
@@ -68,16 +68,14 @@
                     <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
                         transform="rotate(45 10 10)"></polygon>
                 </svg></label>
-                <ul id="nav-menu"
+            <ul id="nav-menu"
                 class="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
-                <li class="nav-item"><a
-                        class="nav-link block"
-                        href="../index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link block false" href="../en/about.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link block false" href="../en/whyus.html">Why Us</a></li>
-                        <li class="nav-item"><a class="nav-link block false" href="../en/network.html">Our Network &amp;
-                                Partners</a></li>
-                        <li class="nav-item"><a class="nav-link block false" href="../en/contact.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link block" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="../en/about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="../en/whyus.html">Why Us</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="../en/network.html">Our Network &amp;
+                        Partners</a></li>
+                <li class="nav-item"><a class="nav-link block false" href="../en/contact.html">Contact Us</a></li>
                 <li class="mt-4 inline-block lg:hidden"><a class="btn btn-outline-primary btn-sm hover:bg-[#243b73]"
                         href="https://www.dfintech.club/admin/">Login</a></li>
             </ul>
@@ -95,7 +93,7 @@
                             en: '../en/apply.html', // Replace with the actual URL for the English page
                             hi: '../hi/apply.html',   // Replace with the actual URL for the Hindi page
                         };
-                
+
                         // Navigate to the corresponding URL
                         if (languageUrls[selectedValue]) {
                             window.location.href = languageUrls[selectedValue];
@@ -103,7 +101,8 @@
                     }
                 </script>
                 <a class="btn btn-outline-primary btn-sm hidden lg:inline-block hover:bg-[#243b73]"
-                    href="https://www.dfintech.club/admin/">Login</a></div>
+                    href="https://www.dfintech.club/admin/">Login</a>
+            </div>
         </nav>
     </header>
     <div id="searchModal" class="search-modal">
@@ -150,32 +149,61 @@
             <div class="container">
                 <div class="row">
                     <div class="mx-auto md:col-10 lg:col-6">
-                        <form action="#" method="POST">
-                            <div class="mb-6"><label for="name" class="form-label">Full Name<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="name" class="form-input"
-                                    placeholder="Enter your full name" type="text" name="name" /></div>
-                            <div class="mb-6"><label for="email" class="form-label">Email ID<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="email" class="form-input"
-                                    placeholder="Enter your email ID" type="email" name="email" /></div>
-                            <div class="mb-6"><label for="contact no" class="form-label">Contact No<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="contact" class="form-input"
-                                    placeholder="Enter your Contact No" type="number" name="contact" /></div>
-                            <div class="mb-6"><label for="city" class="form-label">City<!-- --> <span
-                                        class="text-red-500">*</span></label><input id="city" class="form-input"
-                                    placeholder="Enter your City" type="text" name="city" /></div>
-                            <div class="mb-6"><label for="loan amount" class="form-label">Required Loan Amount<!-- -->
-                                    <span class="text-red-500">*</span></label><input id="loanamt" class="form-input"
-                                    placeholder="Enter Required Loan Amount" type="number" name="loanamt" /></div>
-                            <div class="mb-6"><label for="status" class="form-label">Salaried/Self Employed<!-- -->
-                                    <span class="text-red-500">*</span></label><select id="status" name="status"
-                                    class="form-input">
+                        <form action="https://formsubmit.co/sarthak.mishra25@nmims.edu.in" method="POST">
+                            <div class="mb-6">
+                                <label for="name" class="form-label">
+                                    Full Name
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="name" class="form-input" placeholder="Enter your full name" type="text"
+                                    name="name" required />
+                            </div>
+                            <div class="mb-6"><label for="email" class="form-label">
+                                    Email ID
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="email" class="form-input" placeholder="Enter your email ID" type="email"
+                                    name="email" required />
+                            </div>
+                            <div class="mb-6"><label for="contact no" class="form-label">
+                                    Contact No
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="contact" class="form-input" placeholder="Enter your Contact No" type="number"
+                                    name="contact" required />
+                            </div>
+                            <div class="mb-6">
+                                <label for="city" class="form-label">
+                                    City
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="city" class="form-input" placeholder="Enter your City" type="text"
+                                    name="city" required />
+                            </div>
+                            <div class="mb-6">
+                                <label for="loan amount" class="form-label">
+                                    Required Loan Amount
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <input id="loanamt" class="form-input" placeholder="Enter Required Loan Amount"
+                                    type="number" name="loanamt" required/>
+                            </div>
+                            <div class="mb-6">
+                                <label for="status" class="form-label">
+                                    Salaried/Self Employed
+                                    <span class="text-red-500">*</span>
+                                </label>
+                                <select id="status" name="status" class="form-input" required>
                                     <option value="" disabled="" selected=""></option>
                                     <option value="salaried">Salaried</option>
                                     <option value="self-employed">Self Employed</option>
-                                </select></div><button type="submit" class="btn btn-primary">Submit</button>
+                                </select>
+                                <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
+
                 </div>
+            </div>
             </div>
         </section>
     </main>
